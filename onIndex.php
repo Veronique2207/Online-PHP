@@ -54,9 +54,44 @@
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button type="button" class="btn btn-outline-dark  shadow-none me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="LoginModal">
+         loginModal
+          
+</button>
       </form>
     </div>
   </div>
 </nav>
+
+
+
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <form>
+      <div class="modal-header">
+        <h5 class="modal-title"  >
+          <i class="bi bi-person"></i> User login 
+       </h5>
+        <button type="reset" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+        <form>
+  <div class="mb-3">
+           <label  class="form-label">Email address</label>
+            <input type="email" class="form-control shadow none">
+         </div>
+     <div class="d-flex aligin-items">
+             <label  class="form-label">Password</label>
+              <input type="password" class="form-control shadow-none">
+              <a href="javascript: void(0)"> Forgot password?</a>
+              
+  </div>
+        
+        <button type="submit" class="btn btn-primary shadaw-none">LOGIN</button>
+
+
+</form>
+      </div>
+      
