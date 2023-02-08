@@ -86,7 +86,7 @@
              <label  class="form-label">Password</label>
               <input type="password" class="form-control shadow-none">
               <a href="javascript: void(0)"> Forgot password?</a>
-              
+               
   </div>
         
         <button type="submit" class="btn btn-primary shadaw-none">LOGIN</button>
