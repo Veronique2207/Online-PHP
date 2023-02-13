@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>V-International Hotel </title>
+
+   <style> 
+    *{
+      font-family: 'Poppins', sans-serf;
+    }
+    .h-font{
+      font-family: 'Merinda',cursive
+    }
+
+    /* Chrome. Safari, Edge, Opera */
+     input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button{
+      -webkit-appearance: none;
+      margin: 0;
+     }
+
+     /*firefox */
+     input[type=numbe] {
+      -moz-appearance: textfield;
+     }
 </head>
 
 <body> 
@@ -55,7 +75,7 @@
       </ul>
       <form class="d-flex">
         <button type="button" class="btn btn-outline-dark  shadow-none me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="LoginModal">
-         loginModal
+         login
           
 </button>
       </form>
@@ -76,7 +96,41 @@
         <button type="reset" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+         <span class="badage rounded-pill bg-light text-dark mb-3 text-wrap lj-base">
+            Note: Your details must be match with your ID(ID number,passport,Driver license,ect),
+            that will required during check-in. </span>
+            <div class="container-fluid">
+               <div class="row">
+                <div class="col-md-6">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control; shadow-none">
+                  </div>
+               
+                  <div class="col-md-6">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control; shadow-none">
+                  </div>
+
+                  <div class="col-md-6">
+                  <label class="form-label">Phone number</label>
+                  <input type="number" class="form-control; shadow-none">
+                  </div>
+
+                  <div class="col-md-6">
+                  <label class="form-label">picture</label>
+                  <input type="file" class="form-control; shadow-none">
+                  </div>
+                   
+                 
+
+
+
+
+
+
+
+
+
         <form>
   <div class="mb-3">
            <label  class="form-label">Email address</label>
@@ -89,7 +143,9 @@
                
   </div>
         
-        <button type="submit" class="btn btn-primary shadaw-none">LOGIN</button>
+        <button type="button" class="btn btn-primary shadaw-none">LOGIN</button>
+
+        <button type="submit" class="btn btn-primary shadaw-none">Register</button>
 
 
 </form>
